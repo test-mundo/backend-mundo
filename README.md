@@ -22,3 +22,14 @@ Luego, dentro de la carpeta del proyecto ejecutamos los siguientes comandos.
 - php artisan db:seed
 - php artisan serve 
 
+
+
+
+
+
+
+
+
+
+
+
