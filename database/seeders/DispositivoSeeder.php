@@ -312,6 +312,8 @@ class DispositivoSeeder extends Seeder
            
         
         ]);
+
+        
     }
-    
+
 }
