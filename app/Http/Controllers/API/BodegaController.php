@@ -64,5 +64,9 @@ class BodegaController extends Controller
     public function destroy($id)
     {
         //
+ 
     }
 }
+
+
+
