@@ -194,9 +194,6 @@ class ModeloSeeder extends Seeder
             [   'nombre_modelo' => 'MI 5',
                 'marca_id' =>9
             ],
-
-
-           
         ]);
     }
 }
