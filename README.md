@@ -12,10 +12,10 @@ Dentro de la carpeta del proyecto, abrir la terminal y ejecutar comando
 
 - composer install
 
-- El siguiente paso, es abrir el proyecto desde visual Studio Code verificar que exita el archivo .env, debería estar ya que fue eliminado de git ignore. 
+El siguiente paso, es abrir el proyecto desde visual Studio Code verificar que exita el archivo .env, debería estar ya que fue eliminado de git ignore. 
 
 
-- Posteriormente al paso anterior, abrir PHPMYADMIN y crear una base de datos vacía llamada bodega_db, debe ser el mismo nombre de bd que aparece en el archivo .env, este nombre es bodega_db.
+Posteriormente al paso anterior, abrir PHPMYADMIN y crear una base de datos vacía llamada bodega_db, debe ser el mismo nombre de bd que aparece en el archivo .env, este nombre es bodega_db.
 
 Luego, dentro de la carpeta del proyecto ejecutamos los siguientes comandos.
 
