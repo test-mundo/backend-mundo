@@ -36,6 +36,8 @@ Route::get('marcas', [MarcaController::class,'index']);
 //Get para filtrar por marca, sólo se mostrarán modelos de marca disponible
 Route::get('modelos/{id}', [ModeloController::class,'mostrarModelosPorMarca']);
 
+
+//Devuelve todos los modelos de todas las bodegas 
 Route::get('modelos/', [ModeloController::class,'index']);
 
 //TODOS LOS DISPOSITIVOS 

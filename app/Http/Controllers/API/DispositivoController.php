@@ -18,11 +18,12 @@ class DispositivoController extends Controller
      */
     public function index()
     {
-        Dispositivo::join('modelos','modelos.id','=','dispositivos.modelo_id')
+        $dispositivos_bodega = Dispositivo::join('modelos','modelos.id','=','dispositivos.modelo_id')
         ->join('marcas','marcas.id','=','modelos.marca_id')
         ->join('bodegas','bodegas.id','=','dispositivos.bodega_id')
         ->select("dispositivos.id","dispositivos.nombre_dispositivo","dispositivos.bodega_id","marcas.nombre_marca","modelos.nombre_modelo","bodegas.nombre_bodega")
         ->get();
+        return $dispositivos_bodega;
     }
 
     public function mostrarDispositivosBodega($id)
